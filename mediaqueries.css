@@ -79,9 +79,15 @@
   }
 
   .about-containers,
-  .contact-info-upper-container,
   .btn-container {
     flex-wrap: wrap;
+  }
+
+  .contact-info-upper-container{
+    flex-wrap : wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
   }
 
   .contact-info-container {
