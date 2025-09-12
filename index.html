@@ -55,7 +55,7 @@
 
         <!--text details-->
         <div class="section__text"> 
-            <p class="section__text__p1"> Hello I'm</p>
+            <p class="section__text__p1"> Hi! I'm</p>
             <h1 class="title"> Tony Park</h1>
             <p class="section__text__p2"> Computer Science Student</p>
 
@@ -63,7 +63,7 @@
             <div class="btn-container">
 
                 <!-- button for resume-->
-                <button class ="btn btn-color-2" onclick="window.open('./assets/htv_resume.pdf')">
+                <button class ="btn btn-color-2" onclick="window.open('./assets/main_resume.pdf')">
                     Download Resume
                 </button>
 
@@ -75,24 +75,29 @@
 
             </div>
             
-            <!-- social media icons and redirects-->
+      
+            <!-- social media icons and redirects
             <div id="socials-container">
 
-                <!--linked in-->
+                linked in
                 <img src="./assets/linkedin.png" 
+                width="32" 
+                height="32"
                 alt="My LinkedIn profile" 
                 class="icon" 
-                onclick="location.href='https://www.linkedin.com/in/tony-park-8b5313307/'"/>
-
-                <!--github-->
-                <img src="./assets/github.png" 
-                alt="My GitHub profile" 
+                onclick="location.href='https://www.linkedin.com/in/tyhp'"/>
+z
+                email
+                <img src="./assets/email.png" 
+                width="32" 
+                height="32"
+                alt="My email" 
                 class="icon" 
-                onclick="location.href='https://github.com/tonypark4'"/>
+                onclick="location.href='mailto:parktony14@gmail.com';"/>
             
             </div>
 
-            
+        -->
 
 
 
@@ -126,7 +131,12 @@
                         />
 
                     <h3> Experience</h3>
-                    <p>Frontend Development</br> Backend Development</p>
+                    <p>Frontend Development</br>
+                        Backend Development</br>
+                        Personal Tutor</br>
+                        Marketing Program Management</br>
+                        Retail Experience
+                        </p>
 
                     </div>
 
@@ -149,9 +159,9 @@
                 <div class="text-container">
                     <p>
                     I am a Computer Science student currently studying at the University of Toronto. 
-                    My passion for technology and problem-solving drives me to constantly learn and apply myself 
-                    even outside the classroom. Other than programming, I enjoy playing/listening to music, 
-                    hitting the gym, and going to the beach! I also love meeting new people so feel free to reach out
+                    With experience ranging from software development to private tutoring to marketing,
+                    I am highly adaptable and can thrive in any environment! Other than work, I enjoy playing/listening to music, 
+                    hitting the gym, and nightly walks. I also love meeting new people so feel free to reach out
                     and say hi!
                         
 
@@ -173,14 +183,14 @@
     <!--experiences-->
     <section id="experience">
         <p class="section__text__p1">Explore My</p>
-        <h1 class="title">Experiences</h1>
+        <h1 class="title">Skills</h1>
         <div class="experience-details-container">
 
             <div class="about-containers">
                 <!--frontend section-->
                 <div class ="details-container">
                     
-                    <h2 class ="experience-sub-title"> Frontend Development</h2>
+                    <h2 class ="experience-sub-title"> Languages/Frameworks</h2>
                     <div class="article-container">
                         <!--frontend exp 1-->
                         <article>
@@ -215,7 +225,7 @@
                             />
                             <div>
                                 <h3>HTML</h3>
-                                <p>Intermediate</p>
+                                <p>Proficient</p>
                             </div>
                         </article>
                         <!--frontend exp 4-->
@@ -238,29 +248,29 @@
                             class="icon"
                             />
                             <div>
-                                <h3>Flutter</h3>
+                                <h3>Dart</h3>
                                 <p>Proficient</p>
                             </div>
                         </article>
                         <!--frontend exp 6-->
-                        <!-- <article>
+                        <article>
                             <img 
                             src="./assets/checkmark.png" 
                             alt = "experience icon:" 
                             class="icon"
                             />
                             <div>
-                                <h3>Brawl Stars</h3>
-                                <p>Professional</p>
+                                <h3>JavaScript</h3>
+                                <p>Intermediate</p>
                             </div>
-                        </article> -->
+                        </article>
                     </div>
                 </div>
 
                 <!--backend section-->
                 <div class ="details-container">
                     
-                    <h2 class ="experience-sub-title"> Backend Development</h2>
+                    <h2 class ="experience-sub-title"> Tools</h2>
                     <div class="article-container">
                         <!--backend exp 1-->
                         <article>
@@ -271,7 +281,7 @@
                             />
                             <div>
                                 <h3>Firebase</h3>
-                                <p>Intermediate</p>
+                                <p>Proficient</p>
                             </div>
                         </article>
                         <!--backend exp 2-->
@@ -282,8 +292,8 @@
                             class="icon"
                             />
                             <div>
-                                <h3>Node JS</h3>
-                                <p>Basic</p>
+                                <h3>Microsoft Office</h3>
+                                <p>Proficient</p>
                             </div>
                         </article>
                         <!--backend exp 3-->
@@ -299,17 +309,17 @@
                             </div>
                         </article>
                         <!--backend exp 4-->
-                        <!-- <article>
+                        <article>
                             <img 
                             src="./assets/checkmark.png" 
                             alt = "experience icon:" 
                             class="icon"
                             />
                             <div>
-                                <h3>League of Legends</h3>
+                                <h3>Figma</h3>
                                 <p>Intermediate </p>
                             </div>
-                        </article> -->
+                        </article>
 
                     </div>
                 </div>
@@ -327,91 +337,96 @@
 
     </section>
 
-    <!--projects-->
-    <section id="projects">
-        <p class="section__text__p1">Browse My Recent</p>
-        <h1 class="title">Projects</h1>
-        <div class="experience-details-container">
-            <div class="about-containers">
-            <!--project 1-->
-            <div class="details-container color-container">
-            <div class="article-container">
-                <img 
-                src="./assets/loadinggif.gif" 
-                alt="Project 1"
-                class="project-img"
-                />
+<!--projects-->
+<section id="projects">
+  <p class="section__text__p1">Browse My Recent</p>
+  <h1 class="title">Projects</h1>
 
-            </div>
-            <h2 class="experience-sub-title project-title">Coming soon...</h2>
-            <div class="btn-container">
-                <!-- redirect for project github-->
-                <!--button class ="btn btn-color-2 project-btn" onclick="location.href='https://github.com/tonypark4'">
-                Github
-                </button> -->
+  <div class="projects-wrapper">
+    <!-- Pet Together -->
+    <div class="details-container color-container">
+      <div class="article-container">
+        <img
+          src="./assets/pet-together.jpg"
+          alt="Project 1"
+          class="project-img"
+        />
+      </div>
+      <h2 class="experience-sub-title project-title">Pet Together</h2>
+      <div class="btn-container">
+        <redirect for project github>
+        <button
+          class="btn btn-color-2 project-btn"
+          onclick="location.href='https://pettogether-88475.web.app/#/login'"
+        >
+          Website
+        </button>
 
-                <button class ="btn btn-color-2 project-btn" >
-                Github
-                </button>
+        <!-- <redirect for project live demo>
+        <button class ="btn btn-color-2 project-btn" onclick="location.href='https://github.com/tonypark4'">
+          Live Demo
+        </button> -->
+      </div>
+    </div>
 
-                <!-- redirect for project live demo-->
-                <!--button class ="btn btn-color-2 project-btn" onclick="location.href='https://github.com/tonypark4'">
-                Live Demo
-                </button> -->
-                <button class ="btn btn-color-2 project-btn" >
-                Live Demo
-                </button>
-            </div>
-            </div>
-
-            <!-- project 2
-            <div class="details-container color-container">
-                <div class="article-container">
-                    <img 
-                    src="./assets/project-2.png" 
-                    alt="Project 2"
-                    class="project-img"
-                    />
     
-                </div>
-                <h2 class="experience-sub-title project-title">Project Two</h2>
-                <div class="btn-container">
-                    <redirect for project github>
-                    <button class ="btn btn-color-2 project-btn" onclick="location.href='https://github.com/tonypark4'">
-                    Github
-                    </button>
-    
-                    <redirect for project live demo>
-                    <button class ="btn btn-color-2 project-btn" onclick="location.href='https://github.com/tonypark4'">
-                    Live Demo
-                    </button>
-                </div>
-                </div> -->
+    <!--Safety Sanctuary-->
+    <div class="details-container color-container">
+      <div class="article-container">
+        <img 
+          src="./assets/safety_sanctuary.png" 
+          alt="Project 2"
+          class="project-img"
+        />
+      </div>
+      <h2 class="experience-sub-title project-title">Safety Sanctuary</h2>
+      <div class="btn-container">
 
-            <!--project 3-->
-            <!-- <div class="details-container color-container">
-                <div class="article-container">
-                    <img 
-                    src="./assets/project-3.png" 
-                    alt="Project 3"
-                    class="project-img"
-                    />
-    
-                </div>
-                <h2 class="experience-sub-title project-title">Project Three</h2>
-                <div class="btn-container">
-                    <redirect for project github>
-                    <button class ="btn btn-color-2 project-btn" onclick="location.href='https://github.com/tonypark4'">
-                    Github
-                    </button>
-    
-                    <redirect for project live demo>
-                    <button class ="btn btn-color-2 project-btn" onclick="location.href='https://github.com/tonypark4'">
-                    Live Demo
-                    </button>
-                </div>
-            </div> -->
-        </div>
+        <!-- <button class ="btn btn-color-2 project-btn" onclick="location.href='https://github.com/tonypark4'">
+          Github
+        </button> -->
+
+
+        <button class ="btn btn-color-2 project-btn" onclick="location.href='https://github.com/bill-ut/CSCB07-group6-project'">
+          Github
+        </button>
+      </div>
+    </div>
+
+    <!--Coming soon-->
+    <div class="details-container color-container">
+      <div class="article-container">
+        <img
+          src="./assets/loadinggif.gif"
+          alt="Project 1"
+          class="project-img"
+        />
+      </div>
+      <h2 class="experience-sub-title project-title">More coming soon...</h2>
+
+      <!-- <div class="btn-container">
+        redirect for project github
+        <button class ="btn btn-color-2 project-btn" onclick="location.href='https://github.com/tonypark4'">
+          Github
+        </button>
+
+        <button class ="btn btn-color-2 project-btn" >
+          Github
+        </button>
+
+        redirect for project live demo
+        button class ="btn btn-color-2 project-btn" onclick="location.href='https://github.com/tonypark4'">
+          Live Demo
+        </button> 
+        <button class ="btn btn-color-2 project-btn" >
+          Live Demo
+        </button>
+      </div> -->
+    </div>
+
+  </div>
+
+
 
     </div>
 

@@ -384,9 +384,35 @@ article p {
 
 /* projects section */
 
-#projects{
-    position: relative;
+/* Projects section */
+#projects {
+  position: relative;
+  height: auto;
+  padding: 4rem 10rem;       /* fixed spacing syntax */
 }
+
+/* Flex layout for cards */
+.projects-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+/* Control each card’s size */
+.projects-wrapper .details-container {
+  flex: 1 1 300px;           /* min-width 300px, grow if space */
+  max-width: 350px;          /* cap width so it never spans whole row */
+}
+
+/* Images scale nicely */
+.projects-wrapper .project-img {
+  width: 100%;
+  height: auto;
+  border-radius: 2rem;
+}
+
+
 
 .color-container{
     border-color: rgb(163, 163, 163);
@@ -397,8 +423,8 @@ article p {
 
 .project-img{
     border-radius: 2rem;
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: auto;
 }
 
 .project-title{
